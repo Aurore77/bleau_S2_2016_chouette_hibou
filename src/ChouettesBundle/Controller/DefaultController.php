@@ -63,7 +63,7 @@ class DefaultController extends Controller
 // si pas assez de modele dans chaque catégorie redirection vers création
 // nouveau modèle
 // -----------------------------------------------------------------------------------------------------
-        if(empty($accessoire) or empty($bijoux) or count($doudou)<2) {
+        if(empty($accessoire) || empty($bijoux) || count($doudou)<2) {
 
 // Ajout message pour inviter l'admin à completer sa base de données
             $this->addFlash(

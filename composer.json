@@ -1,5 +1,6 @@
 {
     "name": "apprenti/chouettes",
+    "description": "Showcase website for handmade stuff",
     "license": "proprietary",
     "type": "project",
     "autoload": {
